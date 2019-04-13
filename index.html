@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>张天阳 | 苏州大学</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* 标题 */
+.header {
+    padding: 10px;
+    padding-left: 14px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* 主要的内容区域 */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* 底部 */
+.footer {
+    padding: 3px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 align="left">张天阳</h2>
+  <p align="left">苏州大学</p>
+  
+</div>
+
+<div class="navbar">
+  <a href="index.html">个人简介</a>
+  <a href="research.html">科学研究</a>
+  <a href="teaching.html">教育教学</a>
+  <a href="social.html">社会服务</a>
+  <a href="awards.html">荣誉奖励</a>
+  <a href="students.html">指导学生</a>
+  <a href="news.html" class="right">研究室情报</a>
+</div>
+
+<div class="row">
+  <div class="side">
+      <br>  </br>
+      <br>  </br>
+      <h3 style = "line-height:40px">对111于每个人而言，真正的职责只有一个：找到自我。然后在心中坚守其一生，全心全意，永不停息。</h3>
+      <h3 align="right">赫尔曼 · 黑塞&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+  </div>
+  <div class="main">
+		  <h3>个人简介</h3>
+      <p style = "line-height:30px">张天阳，吉林省长春市人，2015年于北京大学取得理学博士学位，同年就职于苏州大学医学部公共卫生学院。从事认知神经科学、实验心理病理学领域的研究工作：
+		  主要运用行为学、脑功能成像、神经调控等研究手段，探讨人类自我-客体中心参照加工的特征和神经机制，以及相关精神障碍、认知障碍的预防和干预方法。主持国家自然科学基金、江苏省基础研究计划、江苏省高校哲学社会科学基金等科研项目，
+		  相关研究报告发表于Consciousness and Cognition、Neuroscience Letters、Frontiers in Psychology: Cognition、Clinical Psychological Science等学术期刊，
+		  担任心理学报、心理科学、心理科学进展、Global Health Research and Policy等同行评议期刊审稿人。讲授儿少卫生学、社会医学、实验心理学等课程，
+		  并参与翻译和编写Cognitive Psychology、实验心理学等经典教科书。曾获苏州大学本科毕业实习优秀指导教师、苏州大学医学部优秀留学生班主任、北京大学学术创新奖等荣誉和奖励。</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h5>Email: tyzhang@suda.edu.cn&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Soochow University</h5>
+</div>
+
+</body>
+</html>
